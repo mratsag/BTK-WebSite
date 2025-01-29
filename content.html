@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bilişim Teknolojileri Yazılım Kulübü</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="content-styles.css">
+    <script src="https://kit.fontawesome.com/d755b7edb1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <main>
+    <section id="contact">
         <div class="container">
-            <div class="box">
-                <div class="navbar">
-                    <h4>BTK</h4>
-                    <div class="links">
-                        <a href="/index.html">Ana Sayfa</a>
-                        <a href="#">etkinlikler</a>
-                        <a href="/content.html">iletişim</a>
-                        <a href="/about.html">hakkımızda</a>
-                        <img id="close" src="images/close (1).png" alt="">
+            <h1 class="title">Contact</h1>
+            <div class="contact-area">
+                <div class="cont-left">
+                    <div class="cont-top">
+                        <div class="cont-element">
+                            <i class="far fa-address-card"></i>
+                            <address>Mersin / Turkey</address>
+                        </div>
+                        <div class="cont-element">
+                            <i class="far fa-envelope"></i>
+                            <a href="mailto:furkansunger@fakemail.com">furkansunger@fakemail.com</a>
+                        </div>
+                        <div class="cont-element">
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+1234567890">123-456-7890</a>
+                        </div>
                     </div>
-                    <div class="leng">
-                        <img id="menu" src="images/menu.png" alt="">
+                    <div class="cont-bottom">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a> 
+                        <a href="#"><i class="fab fa-twitter"></i></a> 
+                        <a href="#"><i class="fab fa-instagram"></i></a> 
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a> 
                     </div>
                 </div>
-                <div class="content">
-                    <h1>Bilişim Teknolojileri Yazılım Kulübü</h1>
-                    <p>Bilişim Teknolojileri Yazılım Kulübü olarak teknolojiye ilgi duyan bireyleri bir araya getiriyor, 
-                        eğitimler, etkinlikler ve projelerle üyelerimizin gelişimine katkı sağlıyoruz. Herhangi bir sorunuz, 
-                        öneriniz veya iş birliği teklifiniz varsa bizimle iletişime geçmekten çekinmeyin!</p>
-                        <p><a href="mailto:info@btk.com" style="color: blue; text-decoration: underline;">info@btk.com</a></p>
+                <div class="cont-right">
+                    <form action="">
+                        <input type="text" name="text" id="text" placeholder="Full Name">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <textarea name="message" id="message" rows="10" placeholder="Message"></textarea>
+                        <button>Send</button>
+                    </form>
                 </div>
             </div>
         </div>
-    </main>
-
-    <script src="script.js"></script>
+    </section>
 </body>
-
 </html>
