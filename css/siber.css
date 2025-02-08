@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: Catchy;
+    src: url("../fonts/Catchy\ Mager.ttf");
+}
+
+:root {
+    --main-clr: #edf3fa;
+    --text-clr: #000003;
+    --white-clr: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: var(--text-clr);
+}
+
+html, body, main {
+    width: 100%;
+    height: 100%;
+    background: var(--main-clr);
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.box {
+    width: 100%;
+    background: linear-gradient(140deg, var(--white-clr), var(--main-clr));
+    border-radius: 1rem;
+    border: 5px solid var(--white-clr);
+    padding: 1.5rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h4 {
+    font-family: Catchy;
+    font-size: 1.5rem;
+}
+
+.navbar .links a {
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 15px;
+    transition: color 0.2s ease;
+}
+
+.navbar .links a:hover {
+    color: #555;
+}
+
+/* Carousel Resim Ayarları */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain; /* Resmin tamamını gösterir */
+}
+
+/* Açıklama Alanı */
+.text-box {
+    background: var(--white-clr);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.text-box h2 {
+    font-family: Catchy;
+    font-size: 1.8rem;
+    color: var(--text-clr);
+    margin-bottom: 1rem;
+}
+
+.text-box p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text-clr);
+}
