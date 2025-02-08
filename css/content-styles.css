@@ -213,3 +213,13 @@ body {
     color: #EDF3FA;
     background-color: #011627;
 }
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #dfdede;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

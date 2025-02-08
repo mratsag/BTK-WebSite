@@ -93,3 +93,13 @@ html, body, main {
     line-height: 1.6;
     color: var(--text-clr);
 }
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #dfdede;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
